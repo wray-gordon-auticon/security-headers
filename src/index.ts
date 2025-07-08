@@ -10,9 +10,9 @@ export default {
 			/*
     You can also set Strict-Transport-Security headers.
     These are not automatically set because your website might get added to Chrome's HSTS preload list.
-    Here's the code if you want to apply it:
+    Here's the code if you want to apply it: */
     "Strict-Transport-Security" : "max-age=63072000; includeSubDomains; preload",
-    */
+    
 			/*
     Permissions-Policy header provides the ability to allow or deny the use of browser features, such as opting out of FLoC - which you can use below:
     "Permissions-Policy": "interest-cohort=()",
